@@ -1,0 +1,10 @@
+torch>=1.12
+numpy
+Pillow
+scipy
+scikit-image
+diffusers>=0.21
+datasets
+accelerate
+safetensors
+torchvision

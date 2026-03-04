@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual / conda
+.env
+.venv
+venv/
+.conda/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data and outputs (large or machine-specific)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.npy
+*.log
+checkpoints/
+predictions/
+outputs/
+outputs_*/
+samples/
+runs/
+logs/
+training_logs/
+test_output/
+ddpm-*-segguided/
+ddpm-*-segguided-ref/
+*.zip
+
+# nnUNet
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+.cache/
+
+# Hugging Face
+.cache/huggingface/
+
+# OS
+.DS_Store
+Thumbs.db
