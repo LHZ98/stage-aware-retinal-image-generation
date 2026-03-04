@@ -2,7 +2,9 @@
 
 This repository contains code for a three-stage pipeline: vessel segmentation and geometry, mask-conditioned diffusion training, and stage-guided image sampling.
 
----
+## Overview
+
+![Overview](docs/figures/overview.png)
 
 ## What the code does
 
@@ -29,6 +31,10 @@ This repository contains code for a three-stage pipeline: vessel segmentation an
 
 - **Classifier guidance**  
   A ResNet-50 DR stage classifier (0–4) is used to steer the denoising process toward a target stage. Classifier code and training: `classify/DR/` (e.g. `train.py`, `config.py`, `dataset.py`). Guidance is applied during sampling so that the generated image matches the given mask and reference while moving toward the chosen stage.
+
+## Representative results
+
+![Representative results](docs/figures/representative_results.png)
 
 ---
 
